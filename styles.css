@@ -1,0 +1,101 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 50px;
+}
+
+header {
+    text-align: center;
+}
+
+#profile-section {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.profile-img {
+    border-radius: 50%;
+}
+
+.profile-details {
+    margin-top: 10px;
+}
+
+#repositories-section {
+    margin-top: 20px;
+}
+
+.repository {
+    width: 48%;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #fff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.repository h3 {
+    margin-top: 0;
+    color: #007bff;
+}
+
+.repository p {
+    color: #555;
+}
+
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+p.loading {
+    text-align: center;
+    font-style: italic;
+}
+
+#pagination {
+    margin-top: 20px;
+}
+
+.pagination a {
+    margin-right: 5px;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.pagination a:hover,
+.pagination a.active {
+    background-color: #007bff;
+    color: #fff;
+}

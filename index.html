@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Github Repositories</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-12">
+                <header class="text-center mb-4">
+                    <h1>Github Repositories</h1>
+                </header>
+                <div class="mb-4">
+                    <div class="input-group">
+                        <input type="text" id="username" class="form-control" placeholder="Enter username" onkeypress="handleKeyPress(event)">
+                        <div class="input-group-append">
+                            <button class="btn btn-primary" onclick="fetchGitHubData()">Get Repositories</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="profile-section" class="text-center mb-4">
+                    <!-- Profile details will be displayed here -->
+                </div>
+                <div id="repositories-section" class="d-flex flex-wrap justify-content-between">
+                    <!-- Repository details will be displayed here -->
+                </div>
+                <div id="pagination" class="text-center mt-4">
+                    <!-- Pagination information will be displayed here -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
